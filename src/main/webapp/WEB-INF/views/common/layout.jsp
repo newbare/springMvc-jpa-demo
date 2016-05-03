@@ -51,14 +51,13 @@ html,body {
         <div class="content">
             <div class="page-header">
                 <h1>
-                    <a href='${pageContext.request.contextPath}'>Spring MVC JPA
-                        Blank App</a>
+                    <a href='${pageContext.request.contextPath}'>Trabalho de desenvolvimento WEB da Elizabeth</a>
                 </h1>
             </div>
             <div class="row">${param.body}</div>
         </div>
         <footer>
-            <p>&copy; @making 2011</p>
+            <p>&copy; @beth 2016</p>
         </footer>
     </div>
 </body>

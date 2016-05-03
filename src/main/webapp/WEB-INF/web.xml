@@ -40,7 +40,7 @@
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
   <listener>
-    <listener-class>com.example.mvc.listener.ApplicationInitilizeListener</listener-class>
+    <listener-class>com.beth.mvc.listener.ApplicationInitilizeListener</listener-class>
   </listener>
   <servlet>
     <servlet-name>appServlet</servlet-name>

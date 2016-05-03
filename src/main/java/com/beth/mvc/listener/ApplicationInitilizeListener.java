@@ -1,4 +1,4 @@
-package com.example.mvc.listener;
+package com.beth.mvc.listener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,8 +11,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 
-import com.example.mvc.entity.Person;
-import com.example.mvc.repository.PersonRepository;
+import com.beth.mvc.entity.Person;
+import com.beth.mvc.repository.PersonRepository;
 
 public class ApplicationInitilizeListener implements ServletContextListener {
     private static final Logger LOGGER = LoggerFactory

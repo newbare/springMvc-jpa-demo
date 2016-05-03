@@ -1,8 +1,8 @@
-package com.example.mvc.service;
+package com.beth.mvc.service;
 
 import org.springframework.data.domain.Page;
 
-import com.example.mvc.entity.Person;
+import com.beth.mvc.entity.Person;
 
 public interface PersonService {
     Page<Person> findAll(int page, int size);

@@ -39,5 +39,5 @@
 		</constructor-arg>
 	</bean>
 
-	<jpa:repositories base-package="com.example.mvc.repository" />
+	<jpa:repositories base-package="com.beth.mvc.repository" />
 </beans>

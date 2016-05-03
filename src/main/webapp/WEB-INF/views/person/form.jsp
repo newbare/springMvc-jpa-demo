@@ -13,7 +13,7 @@
             <fieldset>
                 <legend>Person</legend>
                 <div class="control-group">
-                    <label class="control-label" for="name">name</label>
+                    <label class="control-label" for="name">nome</label>
                     <div class="controls">
                         <form:input path="name" cssClass="span5"
                             cssErrorClass="error" />
@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <div class="control-group">
-                    <label class="control-label" for="age">age</label>
+                    <label class="control-label" for="age">idade</label>
                     <div class="controls">
                         <form:input path="age" cssClass="span3"
                             cssErrorClass="error" />
@@ -36,12 +36,12 @@
                 <div class="form-actions">
                     <input type="submit" class="btn btn-primary"
                         value="Submit">&nbsp;
-                    <button type="reset" class="btn">Cancel</button>
+                    <button type="reset" class="btn">Cancelar</button>
                 </div>
             </fieldset>
         </form:form>
         <hr>
-        <a href='${pageContext.request.contextPath}/person/list' class="btn">list</a>
+        <a href='${pageContext.request.contextPath}/person/list' class="btn">listar</a>
     </c:param>
 </c:import>
 

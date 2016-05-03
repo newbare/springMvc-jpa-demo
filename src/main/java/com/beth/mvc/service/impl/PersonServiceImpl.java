@@ -1,4 +1,4 @@
-package com.example.mvc.service.impl;
+package com.beth.mvc.service.impl;
 
 import javax.inject.Inject;
 
@@ -10,9 +10,9 @@ import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.mvc.entity.Person;
-import com.example.mvc.repository.PersonRepository;
-import com.example.mvc.service.PersonService;
+import com.beth.mvc.entity.Person;
+import com.beth.mvc.repository.PersonRepository;
+import com.beth.mvc.service.PersonService;
 
 @Service
 public class PersonServiceImpl implements PersonService {

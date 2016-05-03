@@ -1,4 +1,4 @@
-package com.example.mvc.controller;
+package com.beth.mvc.controller;
 
 import javax.inject.Inject;
 import javax.validation.Valid;
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.example.mvc.entity.Person;
-import com.example.mvc.service.PersonService;
+import com.beth.mvc.entity.Person;
+import com.beth.mvc.service.PersonService;
 
 @Controller
 @RequestMapping("/person")
